@@ -1,0 +1,23 @@
+[
+    {
+        "question": "arqam pathan hai ?",
+        "choices": [
+            "nh hai",
+            "haiiii",
+            "main hun",
+            "tmn ho"
+        ],
+        "correct_answer": "haiiii"
+    },
+    {
+        "question": "what is js ",
+        "choices": [
+            "djkjbj",
+            "bjsbjb",
+            "jss n",
+            "library"
+        ],
+        "correct_answer": "library",
+        "code": "function restartQuiz() {\r\n            currentQuestionIndex = 0;\r\n            correctAnswers = 0;\r\n            userName = '';\r\n            \r\n            \/\/ Show the intro screen again\r\n            document.getElementById('intro-screen').style.display = 'block';\r\n            document.getElementById('quiz-form').style.display = 'none';\r\n            document.getElementById('result').innerHTML = '';\r\n            document.getElementById('next-button').style.display = 'none';\r\n            document.getElementById('user-name').value = '';\r\n        }"
+    }
+]
